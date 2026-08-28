@@ -81,18 +81,6 @@ function ProjectCard({
             >
               View Project <span className="opacity-50">→</span>
             </button>
-            <a
-              href={project.github ?? "#contact"}
-              className="font-mono text-xs uppercase text-muted-foreground hover:text-foreground"
-            >
-              {project.github ? "GitHub ↗" : "[GITHUB LINK]"}
-            </a>
-            <a
-              href={project.demo ?? "#contact"}
-              className="font-mono text-xs uppercase text-muted-foreground hover:text-foreground"
-            >
-              {project.demo ? "Live Demo ↗" : "[LIVE DEMO LINK]"}
-            </a>
           </div>
         </div>
 
@@ -187,20 +175,6 @@ export function Projects() {
                 ))}
               </div>
 
-              <div className="flex gap-4 font-mono text-xs uppercase">
-                <a
-                  href={openProject.github ?? "#contact"}
-                  className="text-muted-foreground hover:text-accent"
-                >
-                  {openProject.github ? "GitHub ↗" : "[GITHUB LINK]"}
-                </a>
-                <a
-                  href={openProject.demo ?? "#contact"}
-                  className="text-muted-foreground hover:text-accent"
-                >
-                  {openProject.demo ? "Live Demo ↗" : "[LIVE DEMO LINK]"}
-                </a>
-              </div>
             </>
           )}
         </DialogContent>
