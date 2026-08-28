@@ -1,4 +1,3 @@
-import traffic from "@/assets/project-traffic.jpg";
 import hospital from "@/assets/project-hospital.jpg";
 import hangman from "@/assets/project-hangman.jpg";
 
