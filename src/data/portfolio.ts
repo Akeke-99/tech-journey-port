@@ -123,16 +123,24 @@ export const projects: Project[] = [
     title: "Hangman",
     category: "Programming / Game Development",
     summary:
-      "[PLACEHOLDER: One or two lines describing your version of the Hangman game.]",
-    technologies: ["[TECH 1]", "[TECH 2]"],
-    problem: "[PLACEHOLDER: What were you practising or solving with this build?]",
-    technology: "[PLACEHOLDER: Which language and libraries did you use?]",
-    result: "[PLACEHOLDER: What does the finished game do?]",
-    learning: "[PLACEHOLDER: What did you learn while building this?]",
-    role: "[PLACEHOLDER: What part of the project was yours?]",
-    skills: "[PLACEHOLDER: Which skills did this project demonstrate?]",
+      "An interactive Hangman game developed to practice programming fundamentals, logical thinking, and user interaction.",
+    technologies: [
+      "[PROGRAMMING LANGUAGE]",
+      "[TECHNOLOGY / CONCEPT]",
+      "[TECHNOLOGY / CONCEPT]",
+    ],
+    problem:
+      "Create a simple interactive game that allows users to guess a hidden word while practicing programming logic, conditions, and user input.",
+    technology: "",
+    result:
+      "A functional Hangman game where players can make guesses, receive feedback, and continue playing until the word is correctly guessed or the available attempts are exhausted.",
+    learning:
+      "Strengthened my understanding of programming logic, conditional statements, loops, user input, and handling game states.",
+    role: "",
+    skills: "",
     image: hangman,
-    imageAlt: "Minimal illustration of a hangman word game with blank letter slots",
+    imageAlt:
+      "Minimal illustration of a hangman word game with blank letter slots",
     github: null,
     demo: null,
   },
