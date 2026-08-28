@@ -8,7 +8,7 @@ import hangman from "@/assets/project-hangman.jpg";
  */
 
 export const profile = {
-  name: "[YOUR NAME]",
+  name: "KEZIAH KAYINA",
   role: "B.Tech Computer Science & Engineering Student",
   university: "Lovely Professional University",
   currentYear: "2nd Year",
