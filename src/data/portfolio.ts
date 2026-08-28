@@ -110,8 +110,8 @@ export const projects: Project[] = [
     technology: "[PLACEHOLDER: Which sensors, boards, and software did you use?]",
     result: "A working prototype that detected occupied and empty beds, indicated their status through lights, and displayed the bed status on a dashboard.",
     learning: "Gained hands-on experience with Arduino, sensor-based detection, hardware integration, and connecting physical sensor readings to a dashboard for real-time monitoring.",
-    role: "[PLACEHOLDER: What part of the project was yours?]",
-    skills: "[PLACEHOLDER: Which skills did this project demonstrate?]",
+    role: "Contributed to building the working prototype by connecting the sensors, wires, and other hardware components, programming the Arduino, and helping develop the monitoring dashboard.",
+    skills: "Arduino Programming · Hardware Integration · Sensor Integration · Dashboard Development · Debugging & Testing",
     image: hospital,
     imageAlt:
       "Line-drawn illustration of two hospital beds with sensor units above them",
@@ -136,8 +136,8 @@ export const projects: Project[] = [
       "A functional Hangman game where players can make guesses, receive feedback, and continue playing until the word is correctly guessed or the available attempts are exhausted.",
     learning:
       "Strengthened my understanding of programming logic, conditional statements, loops, user input, and handling game states.",
-    role: "",
-    skills: "",
+    role: "Designed and developed the game, implementing the game logic, user input, word-guessing mechanics, and win/loss conditions.",
+    skills: "Programming Logic · Conditional Statements · Loops · User Input Handling · Debugging & Testing",
     image: hangman,
     imageAlt:
       "Minimal illustration of a hangman word game with blank letter slots",
