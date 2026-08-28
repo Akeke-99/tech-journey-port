@@ -17,9 +17,9 @@ export const profile = {
   heroIntro:
     "An undergraduate Computer Science & Engineering student interested in software development, problem-solving, and building practical projects that connect code to the real world.",
   about: [
-    "I am Keziah Kayina, a 2nd student pursuing a B.Tech in Computer Science & Engineering at Lovely Professional University. I enjoy breaking problems down into smaller pieces and turning them into working software.",
-    "My technical interests include [AREAS OF INTEREST]. Most of what I know has come from coursework combined with building things on my own — small tools, embedded systems experiments, and practice with data structures and algorithms.",
-    "My strengths are [STRENGTHS]. Looking ahead, I want to [CAREER ASPIRATION], and I am currently learning [WHAT I AM CURRENTLY LEARNING].",
+    "I am Keziah Kayina, a 2nd Year student pursuing a B.Tech in Computer Science & Engineering at Lovely Professional University. I enjoy breaking problems down into smaller pieces and turning them into working software.",
+    "My technical interests include software development, web development, and cybersecurity. I am especially curious about how software and applications work behind the scenes and enjoy exploring what happens beyond the user interface. Most of what I know has come from my coursework combined with building practical projects and experimenting with technology on my own.",
+    "My strengths are curiosity, willingness to learn, and learning by building and experimenting. Looking ahead, I want to explore software development and cybersecurity while building a strong foundation in Computer Science. I am currently strengthening my programming fundamentals and learning C++.",
   ],
   links: {
     github: "[GITHUB URL]",
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     problem: "Checking hospital beds individually to determine whether they are occupied or available can be time-consuming. The system was designed to make bed availability easier to monitor.",
     technology: "[PLACEHOLDER: Which sensors, boards, and software did you use?]",
     result: "A working prototype that detected occupied and empty beds, indicated their status through lights, and displayed the bed status on a dashboard.",
-    learning: "[PLACEHOLDER: What did you learn while building this?]",
+    learning: "Gained hands-on experience with Arduino, sensor-based detection, hardware integration, and connecting physical sensor readings to a dashboard for real-time monitoring.",
     role: "[PLACEHOLDER: What part of the project was yours?]",
     skills: "[PLACEHOLDER: Which skills did this project demonstrate?]",
     image: hospital,
@@ -149,32 +149,33 @@ export const projects: Project[] = [
 export const education = [
   {
     title: "B.Tech — Computer Science & Engineering",
-    place: "[UNIVERSITY NAME]",
-    period: "[START YEAR] – [EXPECTED GRADUATION YEAR]",
+    place: "Lovely Professional University",
+    period: "2025 – 2029",
     current: true,
   },
   {
     title: "Class XII",
-    place: "[SCHOOL NAME]",
-    period: "[YEAR]",
+    place: "St. John Residential Higher Secondary School",
+    period: "2025",
     current: false,
   },
   {
     title: "Class X",
-    place: "[SCHOOL NAME]",
-    period: "[YEAR]",
+    place: "St. Joseph Higher Secondary School",
+    period: "2023",
     current: false,
   },
 ];
 
 export const certifications = [
-  { name: "[CERTIFICATION NAME]", issuer: "[PLATFORM]", link: null as string | null },
-  { name: "[CERTIFICATION NAME]", issuer: "[PLATFORM]", link: null as string | null },
+  { name: "Leadership Fundamentals", issuer: "EduTech Hub", link: null as string | null },
+  { name: "Introduction to Python", issuer: "Saylor", link: null as string | null },
+  { name: "Certificate of Completion — Community Development Program", issuer: "TOI", link: null as string | null },
 ];
 
 export const achievements = [
-  { name: "[ACHIEVEMENT TITLE]", context: "[EVENT / CONTEXT / YEAR]" },
-  { name: "[ACHIEVEMENT TITLE]", context: "[EVENT / CONTEXT / YEAR]" },
+  { name: "[Achievement / Participation]", context: "[Event / Context / Year]" },
+  { name: "[Achievement / Participation]", context: "[Event / Context / Year]" },
 ];
 
 export const sections = [
