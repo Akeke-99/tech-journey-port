@@ -11,14 +11,14 @@ import hangman from "@/assets/project-hangman.jpg";
 export const profile = {
   name: "[YOUR NAME]",
   role: "B.Tech Computer Science & Engineering Student",
-  university: "[UNIVERSITY NAME]",
-  currentYear: "[CURRENT YEAR]",
-  location: "[LOCATION]",
+  university: "Lovely Professional University",
+  currentYear: "2nd Year",
+  location: "Punjab",
   availability: "Open to internships & collaboration",
   heroIntro:
     "An undergraduate Computer Science & Engineering student interested in software development, problem-solving, and building practical projects that connect code to the real world.",
   about: [
-    "I am [YOUR NAME], a [CURRENT YEAR] student pursuing a B.Tech in Computer Science & Engineering at [UNIVERSITY NAME]. I enjoy breaking problems down into smaller pieces and turning them into working software.",
+    "I am Keziah Kayina, a 2nd student pursuing a B.Tech in Computer Science & Engineering at Lovely Professional University. I enjoy breaking problems down into smaller pieces and turning them into working software.",
     "My technical interests include [AREAS OF INTEREST]. Most of what I know has come from coursework combined with building things on my own — small tools, embedded systems experiments, and practice with data structures and algorithms.",
     "My strengths are [STRENGTHS]. Looking ahead, I want to [CAREER ASPIRATION], and I am currently learning [WHAT I AM CURRENTLY LEARNING].",
   ],
@@ -53,14 +53,14 @@ export const skillGroups: SkillGroup[] = [
       { name: "HTML", level: null },
       { name: "CSS", level: null },
       { name: "JavaScript", level: null },
-      { name: "React", level: null },
+      { name: "\n", level: null },
     ],
   },
   {
     category: "Database",
     items: [
       { name: "MySQL", level: null },
-      { name: "MongoDB", level: null },
+      { name: "PostgreSQL", level: null },
     ],
   },
   {
