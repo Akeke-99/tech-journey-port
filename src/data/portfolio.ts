@@ -22,10 +22,10 @@ export const profile = {
     "My strengths are curiosity, willingness to learn, and learning by building and experimenting. Looking ahead, I want to explore software development and cybersecurity while building a strong foundation in Computer Science. I am currently strengthening my programming fundamentals and learning C++.",
   ],
   links: {
-    github: "[GITHUB URL]",
-    linkedin: "[LINKEDIN URL]",
-    email: "[EMAIL ADDRESS]",
-    resume: "[RESUME PDF URL]",
+    github: "[ADD GITHUB URL LATER]",
+    linkedin: "https://www.linkedin.com/in/keziah-kayina-2696a7393/",
+    email: "keziah08kayina@gmail.com",
+    resume: "[ADD RESUME PDF LINK LATER]",
   },
 };
 
