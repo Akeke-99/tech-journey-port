@@ -1,4 +1,3 @@
-import traffic from "@/assets/project-traffic.jpg";
 import hospital from "@/assets/project-hospital.jpg";
 import hangman from "@/assets/project-hangman.jpg";
 
@@ -100,26 +99,6 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    slug: "smart-traffic-management-system",
-    title: "Smart Traffic Management System",
-    category: "IoT / Embedded Systems / Smart City",
-    summary:
-      "[PLACEHOLDER: One or two lines describing what this system does and who it is for.]",
-    technologies: ["[TECH 1]", "[TECH 2]", "[TECH 3]"],
-    problem: "[PLACEHOLDER: What traffic problem were you trying to address?]",
-    technology:
-      "[PLACEHOLDER: Which hardware, languages, and libraries did you actually use?]",
-    result: "[PLACEHOLDER: What did you build, and what did it do when it ran?]",
-    learning: "[PLACEHOLDER: What did you learn while building this?]",
-    role: "[PLACEHOLDER: What part of the project was yours?]",
-    skills: "[PLACEHOLDER: Which skills did this project demonstrate?]",
-    image: traffic,
-    imageAlt:
-      "Line-drawn schematic of a road intersection with marked sensor nodes",
-    github: null,
-    demo: null,
-  },
   {
     slug: "smart-hospital-bed-detection-system",
     title: "Smart Hospital Bed Detection System",
