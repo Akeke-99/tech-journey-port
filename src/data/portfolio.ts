@@ -124,11 +124,7 @@ export const projects: Project[] = [
     category: "Programming / Game Development",
     summary:
       "An interactive Hangman game developed to practice programming fundamentals, logical thinking, and user interaction.",
-    technologies: [
-      "[PROGRAMMING LANGUAGE]",
-      "[TECHNOLOGY / CONCEPT]",
-      "[TECHNOLOGY / CONCEPT]",
-    ],
+    technologies: ["Python", "Control Flow", "String Manipulation"],
     problem:
       "Create a simple interactive game that allows users to guess a hidden word while practicing programming logic, conditions, and user input.",
     technology: "",
