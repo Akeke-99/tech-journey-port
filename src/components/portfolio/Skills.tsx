@@ -9,7 +9,7 @@ export function Skills() {
         className="scroll-mt-24 rounded-xl border border-border bg-surface p-6 sm:p-8"
       >
         <h2 className="mb-10 text-center font-mono text-[10px] uppercase tracking-widest text-muted-foreground underline decoration-accent/30 underline-offset-8">
-          Technical Taxonomy
+          Technical Skills
         </h2>
 
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-5">
