@@ -1,5 +1,6 @@
 import hospital from "@/assets/project-hospital.jpg";
 import hangman from "@/assets/project-hangman.jpg";
+import community from "@/assets/project-community.jpg";
 
 /**
  * ALL PORTFOLIO CONTENT LIVES HERE.
@@ -140,6 +141,30 @@ export const projects: Project[] = [
     github: null,
     demo: null,
   },
+  {
+    slug: "community-development-environmental-awareness",
+    title: "Community Development Program — Environmental Awareness Campaign",
+    category: "Community Development / Environmental Awareness",
+    summary:
+      "A community outreach project focused on promoting environmental awareness among school students through awareness sessions and student engagement activities.",
+    technologies: ["Community Outreach", "Environmental Awareness", "Student Engagement"],
+    problem:
+      "Environmental awareness and responsible practices need to be encouraged among young students. The project focused on reaching school students and creating awareness about environmental conservation and sustainability.",
+    technology: "",
+    result:
+      "Conducted environmental awareness activities with school students and engaged with students through schools and camps as part of the Community Development Program.",
+    learning:
+      "Developed practical experience in communicating with students, conducting awareness activities, working with communities, and taking responsibility for a social-impact project.",
+    role:
+      "Visited schools and camps, interacted with students, and contributed to spreading awareness about environmental conservation and responsible practices.",
+    skills:
+      "Communication · Community Outreach · Public Speaking · Student Engagement · Teamwork",
+    image: community,
+    imageAlt:
+      "Illustration of students participating in an environmental awareness session",
+    github: null,
+    demo: null,
+  },
 ];
 
 export const education = [
@@ -169,17 +194,12 @@ export const certifications = [
   { name: "Certificate of Completion — Community Development Program", issuer: "TOI", link: null as string | null },
 ];
 
-export const achievements = [
-  { name: "[Achievement / Participation]", context: "[Event / Context / Year]" },
-  { name: "[Achievement / Participation]", context: "[Event / Context / Year]" },
-];
-
 export const sections = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
   { id: "education", label: "Education" },
-  { id: "achievements", label: "Achievements" },
+  { id: "certifications", label: "Certifications" },
   { id: "contact", label: "Contact" },
 ];
