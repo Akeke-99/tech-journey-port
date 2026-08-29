@@ -1,4 +1,5 @@
 import { profile } from "@/data/portfolio";
+import portraitAsset from "@/assets/portrait.png.asset.json";
 
 export function Hero() {
   return (
@@ -16,7 +17,7 @@ export function Hero() {
         {profile.role}
       </p>
 
-      <div className="animate-reveal grid items-end gap-10 md:grid-cols-2">
+      <div className="animate-reveal grid items-center gap-10 md:grid-cols-2">
         <div className="space-y-6">
           <p className="max-w-[45ch] text-pretty text-lg font-medium leading-relaxed sm:text-xl">
             {profile.heroIntro}
@@ -35,15 +36,23 @@ export function Hero() {
               Download Resume
             </a>
           </div>
+
+          <div className="flex gap-5 font-mono text-xs text-muted-foreground">
+            <a href={profile.links.github} className="hover:text-foreground">
+              GITHUB <span className="opacity-30">/</span>
+            </a>
+            <a href={profile.links.linkedin} className="hover:text-foreground">
+              LINKEDIN <span className="opacity-30">/</span>
+            </a>
+          </div>
         </div>
 
-        <div className="flex gap-5 font-mono text-xs text-muted-foreground md:justify-end">
-          <a href={profile.links.github} className="hover:text-foreground">
-            GITHUB <span className="opacity-30">/</span>
-          </a>
-          <a href={profile.links.linkedin} className="hover:text-foreground">
-            LINKEDIN <span className="opacity-30">/</span>
-          </a>
+        <div className="order-last md:order-none">
+          <img
+            src={portraitAsset.url}
+            alt="Keziah Kayina professional portrait"
+            className="w-full max-w-sm rounded-sm object-cover md:ml-auto"
+          />
         </div>
       </div>
     </section>
