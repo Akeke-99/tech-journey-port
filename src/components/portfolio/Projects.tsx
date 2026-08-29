@@ -30,12 +30,17 @@ function ProjectCard({
   onOpen: () => void;
 }) {
   const flipped = index % 2 === 1;
+  const hasImage = Boolean(project.image);
 
   return (
     <Reveal as="article" className="group">
       <div
         className={`grid gap-8 md:gap-12 ${
-          flipped ? "md:grid-cols-[360px_1fr]" : "md:grid-cols-[1fr_360px]"
+          !hasImage
+            ? "md:grid-cols-1"
+            : flipped
+              ? "md:grid-cols-[360px_1fr]"
+              : "md:grid-cols-[1fr_360px]"
         }`}
       >
         <div className={`space-y-8 ${flipped ? "md:order-2" : ""}`}>
