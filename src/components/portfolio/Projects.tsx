@@ -30,12 +30,17 @@ function ProjectCard({
   onOpen: () => void;
 }) {
   const flipped = index % 2 === 1;
+  const hasImage = Boolean(project.image);
 
   return (
     <Reveal as="article" className="group">
       <div
         className={`grid gap-8 md:gap-12 ${
-          flipped ? "md:grid-cols-[360px_1fr]" : "md:grid-cols-[1fr_360px]"
+          !hasImage
+            ? "md:grid-cols-1"
+            : flipped
+              ? "md:grid-cols-[360px_1fr]"
+              : "md:grid-cols-[1fr_360px]"
         }`}
       >
         <div className={`space-y-8 ${flipped ? "md:order-2" : ""}`}>
@@ -84,16 +89,18 @@ function ProjectCard({
           </div>
         </div>
 
-        <div className={flipped ? "md:order-1" : ""}>
-          <img
-            src={project.image}
-            alt={project.imageAlt}
-            width={800}
-            height={1000}
-            loading="lazy"
-            className="aspect-[4/5] w-full rounded-lg border border-border object-cover transition-transform duration-500 ease-out group-hover:-translate-y-1"
-          />
-        </div>
+        {project.image && (
+          <div className={flipped ? "md:order-1" : ""}>
+            <img
+              src={project.image}
+              alt={project.imageAlt}
+              width={800}
+              height={1000}
+              loading="lazy"
+              className="aspect-[4/5] w-full rounded-lg border border-border object-cover transition-transform duration-500 ease-out group-hover:-translate-y-1"
+            />
+          </div>
+        )}
       </div>
     </Reveal>
   );
@@ -146,14 +153,16 @@ export function Projects() {
                 </DialogDescription>
               </DialogHeader>
 
-              <img
-                src={openProject.image}
-                alt={openProject.imageAlt}
-                width={800}
-                height={1000}
-                loading="lazy"
-                className="aspect-[16/10] w-full rounded-md border border-border object-cover"
-              />
+              {openProject.image && (
+                <img
+                  src={openProject.image}
+                  alt={openProject.imageAlt}
+                  width={800}
+                  height={1000}
+                  loading="lazy"
+                  className="aspect-[16/10] w-full rounded-md border border-border object-cover"
+                />
+              )}
 
               <div className="space-y-6">
                 <Field label="Problem" value={openProject.problem} />

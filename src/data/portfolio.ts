@@ -1,6 +1,5 @@
 import hospital from "@/assets/project-hospital.jpg";
 import hangman from "@/assets/project-hangman.jpg";
-import community from "@/assets/project-community.jpg";
 
 /**
  * ALL PORTFOLIO CONTENT LIVES HERE.
@@ -93,7 +92,7 @@ export type Project = {
   learning: string;
   role: string;
   skills: string;
-  image: string;
+  image: string | null;
   imageAlt: string;
   github: string | null;
   demo: string | null;
@@ -159,9 +158,8 @@ export const projects: Project[] = [
       "Visited schools and camps, interacted with students, and contributed to spreading awareness about environmental conservation and responsible practices.",
     skills:
       "Communication · Community Outreach · Public Speaking · Student Engagement · Teamwork",
-    image: community,
-    imageAlt:
-      "Illustration of students participating in an environmental awareness session",
+    image: null,
+    imageAlt: "",
     github: null,
     demo: null,
   },
