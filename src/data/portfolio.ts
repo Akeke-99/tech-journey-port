@@ -43,7 +43,6 @@ export const skillGroups: SkillGroup[] = [
       { name: "C", level: null },
       { name: "C++", level: null },
       { name: "Python", level: null },
-      { name: "Java", level: null },
     ],
   },
   {
@@ -52,7 +51,6 @@ export const skillGroups: SkillGroup[] = [
       { name: "HTML", level: null },
       { name: "CSS", level: null },
       { name: "JavaScript", level: null },
-      { name: "\n", level: null },
     ],
   },
   {
@@ -107,7 +105,7 @@ export const projects: Project[] = [
       "A prototype system that detects whether a hospital bed is occupied or empty and reports its status through physical indicators and a live dashboard.",
     technologies: ["Arduino", "Sensors", "Dashboard"],
     problem: "Checking hospital beds individually to determine whether they are occupied or available can be time-consuming. The system was designed to make bed availability easier to monitor.",
-    technology: "[PLACEHOLDER: Which sensors, boards, and software did you use?]",
+    technology: "Arduino board, multiple sensors for bed-occupancy detection, sensor-based LED indicators, and a live monitoring dashboard.",
     result: "A working prototype that detected occupied and empty beds, indicated their status through lights, and displayed the bed status on a dashboard.",
     learning: "Gained hands-on experience with Arduino, sensor-based detection, hardware integration, and connecting physical sensor readings to a dashboard for real-time monitoring.",
     role: "Contributed to building the working prototype by connecting the sensors, wires, and other hardware components, programming the Arduino, and helping develop the monitoring dashboard.",
