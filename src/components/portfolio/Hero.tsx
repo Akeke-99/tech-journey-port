@@ -47,11 +47,11 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="order-last flex justify-start md:order-none md:justify-end">
+        <div className="order-last flex w-full justify-center md:order-none md:justify-end">
           <img
             src={portraitAsset.url}
             alt="Keziah Kayina professional portrait"
-            className="aspect-square w-full max-w-[280px] rounded-full object-cover"
+            className="aspect-square w-full max-w-sm rounded-full object-cover"
           />
         </div>
       </div>
