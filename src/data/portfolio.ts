@@ -188,6 +188,7 @@ export const certifications = [
   { name: "Leadership Fundamentals", issuer: "EduTech Hub", link: null as string | null },
   { name: "Introduction to Python", issuer: "Saylor", link: null as string | null },
   { name: "Certificate of Completion — Community Development Program", issuer: "TOI", link: null as string | null },
+  { name: "DCA", issuer: "ICAT", link: null as string | null },
 ];
 
 export const sections = [
