@@ -38,10 +38,20 @@ export function Hero() {
           </div>
 
           <div className="flex gap-5 font-mono text-xs text-muted-foreground">
-            <a href={profile.links.github} className="hover:text-foreground">
+            <a
+              href={profile.links.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground"
+            >
               GITHUB <span className="opacity-30">/</span>
             </a>
-            <a href={profile.links.linkedin} className="hover:text-foreground">
+            <a
+              href={profile.links.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-foreground"
+            >
               LINKEDIN <span className="opacity-30">/</span>
             </a>
           </div>
