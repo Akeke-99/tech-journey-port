@@ -1,5 +1,6 @@
 import hospital from "@/assets/project-hospital.jpg";
 import hangman from "@/assets/project-hangman.jpg";
+import cvAsset from "@/assets/cv.pdf.asset.json";
 
 /**
  * ALL PORTFOLIO CONTENT LIVES HERE.
