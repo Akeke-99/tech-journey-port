@@ -1,5 +1,6 @@
 import hospital from "@/assets/project-hospital.jpg";
 import hangman from "@/assets/project-hangman.jpg";
+import cvAsset from "@/assets/cv.pdf.asset.json";
 
 /**
  * ALL PORTFOLIO CONTENT LIVES HERE.
@@ -25,7 +26,7 @@ export const profile = {
     github: "https://github.com/Akeke-99",
     linkedin: "https://www.linkedin.com/in/keziah-kayina-67532937a/",
     email: "keziah08kayina@gmail.com",
-    resume: "[ADD RESUME PDF LINK LATER]",
+    resume: cvAsset.url,
   },
 };
 
