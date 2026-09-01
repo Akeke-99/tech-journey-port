@@ -43,6 +43,8 @@ export function Contact() {
                 ) : (
                   <a
                     href={card.href}
+                    target={card.label === "GitHub" || card.label === "LinkedIn" ? "_blank" : undefined}
+                    rel={card.label === "GitHub" || card.label === "LinkedIn" ? "noopener noreferrer" : undefined}
                     className="block h-full rounded-lg border border-border bg-surface p-5 transition-colors hover:border-accent/50 hover:bg-muted/40"
                   >
                     {content}

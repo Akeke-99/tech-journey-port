@@ -23,7 +23,7 @@ export const profile = {
   ],
   links: {
     github: "https://github.com/Akeke-99",
-    linkedin: "https://www.linkedin.com/in/keziah-kayina-2696a7393/",
+    linkedin: "https://www.linkedin.com/in/keziah-kayina-2696a739/",
     email: "keziah08kayina@gmail.com",
     resume: "[ADD RESUME PDF LINK LATER]",
   },
