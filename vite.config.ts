@@ -9,7 +9,7 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   tanstackStart: {
     // Prerender the single portfolio route so GitHub Pages can serve it as a static site.
-    prerender: { enabled: true, crawlLinks: true },
+    prerender: { enabled: true, crawlLinks: false },
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     server: { entry: "server" },
   },
